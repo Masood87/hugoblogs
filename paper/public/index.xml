@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Site Title | Hugo Paper-Now</title>
+    <link>/</link>
+    <description>Recent content on Site Title | Hugo Paper-Now</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 23 Jul 2015 21:13:14 -0500</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A box chart</title>
+      <link>/figure/cell-culture-figure/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/figure/cell-culture-figure/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Abstract</title>
+      <link>/section/abstract/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/section/abstract/</guid>
+      <description>This is the first paragraph of the abstract.
+This is another paragraph of the abstract.</description>
+    </item>
+    
+    <item>
+      <title>Acknowledgments</title>
+      <link>/section/acknowledgments/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/section/acknowledgments/</guid>
+      <description>Our gratitude belongs to these people.</description>
+    </item>
+    
+    <item>
+      <title>A visualisation</title>
+      <link>/figure/phyllotaxis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/figure/phyllotaxis/</guid>
+      <description> </description>
+    </item>
+    
+    <item>
+      <title>Introduction</title>
+      <link>/section/introduction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/section/introduction/</guid>
+      <description>The background to the work.
+This paragraph contains one species, a Hippopotamus amphibius.
+This sentence cites an article in the bibliography (Author, 2014).
+This sentence cites another article (Author, 2015).
+This paragraph has a DOI citation at the end, which supports this statement👍.
+This paragraph links to an article by DOI and heterochrony in hadrosaurids&amp;rdquo;).
+This paragraph links to an article by PMID.
+Equations and formula can be included either inline (2+2=4 ) or as display blocks:</description>
+    </item>
+    
+    <item>
+      <title>References</title>
+      <link>/references/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/references/</guid>
+      <description> First Author, Second Author. 2014. My First Article. First Author, Second Author. 2015. My Second Article.  </description>
+    </item>
+    
+    <item>
+      <title>A table of the results</title>
+      <link>/figure/cell-culture-table/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/figure/cell-culture-table/</guid>
+      <description>  Heading 1 Heading 2     Data point Data point    </description>
+    </item>
+    
+    <item>
+      <title>Methods</title>
+      <link>/section/methods/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/section/methods/</guid>
+      <description>How the experiment was performed.
+Cell culture The cells were cultured at 37°C overnight.</description>
+    </item>
+    
+    <item>
+      <title>Results</title>
+      <link>/section/results/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/section/results/</guid>
+      <description>The results of the experiment. See Figure 1 and Figure 2, as well as Table 1, for details.</description>
+    </item>
+    
+    <item>
+      <title>Discussion</title>
+      <link>/section/discussion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/section/discussion/</guid>
+      <description>Discussion of the results and implications.
+This paragraph contains one species, a Hippopotamus amphibius.</description>
+    </item>
+    
+    <item>
+      <title>Acknowledgments</title>
+      <link>/acknowledgments/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/acknowledgments/</guid>
+      <description>Our gratitude belongs to these people.</description>
+    </item>
+    
+    <item>
+      <title>Hello R Markdown</title>
+      <link>/post/2015-07-23-r-rmarkdown/</link>
+      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      
+      <guid>/post/2015-07-23-r-rmarkdown/</guid>
+      <description>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
+You can embed an R code chunk like this:
+summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
+    </item>
+    
+  </channel>
+</rss>

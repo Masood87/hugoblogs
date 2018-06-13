@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>gohugo-amp starter theme</title>
+    <link>/</link>
+    <description>Recent content on gohugo-amp starter theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 20 Nov 2016 14:28:41 +0200</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>gohugo-amp</title>
+      <link>/</link>
+      <pubDate>Sun, 20 Nov 2016 14:28:41 +0200</pubDate>
+      
+      <guid>/</guid>
+      <description>gohugo-amp This Hugo theme is supposed to be a starter theme to make it easy to adapt to Google&amp;rsquo;s AMP-Project. Included in the theme are 40+ shortcodes and partials and automatic Structured Data making it a pleasure to embed AMP-Elements within your content files or your template.
+Have a look at the documentation including the following starter-Guides:
+1. Installation Guide 2. Configuration Guide 3. Styling Guide 4. Structured Data Guide 5.</description>
+    </item>
+    
+  </channel>
+</rss>

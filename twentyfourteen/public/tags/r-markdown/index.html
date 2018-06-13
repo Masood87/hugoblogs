@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>My New Hugo Site</title>
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<!--[if lt IE 9]>
+	<script src="//js/html5.js"></script>
+	<![endif]-->
+    
+    <link href="//index.xml" rel="alternate" type="application/rss+xml" title="My New Hugo Site" />
+
+    <link rel='stylesheet' id='twentyfourteen-lato-css'  href='//fonts.googleapis.com/css?family=Lato%3A300%2C400%2C700%2C900%2C300italic%2C400italic%2C700italic&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
+
+    <link rel='stylesheet' id='genericons-css' href='//genericons/genericons.css' type='text/css' media='all' />
+	<link rel='stylesheet' id='twentyfourteen-style-css' href='//css/style.css' type='text/css' media='all' />
+	
+	<script type='text/javascript' src='//js/jquery/jquery.js'></script>
+	<script type='text/javascript' src='//js/jquery/jquery-migrate.min.js'></script>
+	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+</head>
+
+<body class="home blog masthead-fixed list-view full-width grid">
+<div id="page" class="hfeed site">
+	<header id="masthead" class="site-header" role="banner">
+		<div class="header-main">
+			<h1 class="site-title"><a href="//index.html" rel="home">My New Hugo Site</a></h1>
+
+			<div class="search-toggle">
+				<a href="#search-container" class="screen-reader-text">Search</a>
+			</div>
+
+			<nav id="primary-navigation" class="site-navigation primary-navigation" role="navigation">
+				<button class="menu-toggle">Primary Menu</button>
+				<a class="screen-reader-text skip-link" href="#content">Skip to content</a>
+				<div class="nav-menu">
+					<ul>
+						
+					</ul>
+				</div>
+			</nav>
+		</div>
+
+		<div id="search-container" class="search-box-wrapper hide">
+			<div class="search-box">
+                <script type="text/javascript">
+    function site_search(obj) {
+    	var host = window.location.host;
+        obj.q.value = "site:" + host + " " + obj.ss_q.value;
+    }
+</script>
+
+<aside id="search-3" class="widget widget_search">
+	<form role="search" class="search-form" action="//www.google.com/search" method="get" onSubmit="site_search(this)">
+
+	<input name="q" type="hidden" />
+	    <label>
+	        <span class="screen-reader-text">Search for:</span>
+	        <input name="ss_q" type="text" placeholder="Search ..." class="search-field" />
+	    </label>
+	    <input type="submit" value="Search" class="search-submit" />
+	</form>
+</aside>
+			</div>
+		</div>
+	</header>
+
+	<div id="main" class="site-main">
+
+
+<div id="main-content" class="main-content">
+
+	<div id="primary" class="content-area">
+		<div id="content" class="site-content" role="main">
+
+			<header class="archive-header">
+				<h1 class="archive-title">R Markdown Archive</h1>
+			</header>
+
+			
+				<article class="post type-post status-publish format-standard hentry">
+
+	
+	<header class="entry-header">
+
+	
+
+		<div class="entry-meta">
+			<span class="cat-links">
+                
+                <a href="//categories/r/index.html" rel="category">R</a>
+                
+			</span>
+		</div>
+
+		<h1 class="entry-title">Hello R Markdown</h1>
+
+		<div class="entry-meta">
+			<span class="entry-date">
+				<a href="/post/2015-07-23-r-rmarkdown//index.html" rel="bookmark">
+					<time class="entry-date" datetime="2015-07-23 21:13:14 -0500 -0500">
+						July 23
+					</time>
+				</a>
+			</span>
+		</div>
+
+	</header>
+	
+	<div class="entry-content">
+		<div id="r-markdown" class="section level1">
+<h1>R Markdown</h1>
+<p>This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <a href="http://rmarkdown.rstudio.com" class="uri">http://rmarkdown.rstudio.com</a>.</p>
+<p>You can embed an R code chunk like this:</p>
+<pre class="r"><code>summary(cars)
+##      speed           dist       
+##  Min.   : 4.0   Min.   :  2.00  
+##  1st Qu.:12.0   1st Qu.: 26.00  
+##  Median :15.0   Median : 36.00  
+##  Mean   :15.4   Mean   : 42.98  
+##  3rd Qu.:19.0   3rd Qu.: 56.00  
+##  Max.   :25.0   Max.   :120.00
+fit &lt;- lm(dist ~ speed, data = cars)
+fit
+## 
+## Call:
+## lm(formula = dist ~ speed, data = cars)
+## 
+## Coefficients:
+## (Intercept)        speed  
+##     -17.579        3.932</code></pre>
+</div>
+<div id="including-plots" class="section level1">
+<h1>Including Plots</h1>
+<p>You can also embed plots. See Figure <a href="#fig:pie">1</a> for example:</p>
+<pre class="r"><code>par(mar = c(0, 1, 0, 1))
+pie(
+  c(280, 60, 20),
+  c(&#39;Sky&#39;, &#39;Sunny side of pyramid&#39;, &#39;Shady side of pyramid&#39;),
+  col = c(&#39;#0292D8&#39;, &#39;#F7EA39&#39;, &#39;#C4B632&#39;),
+  init.angle = -50, border = NA
+)</code></pre>
+<div class="figure"><span id="fig:pie"></span>
+<img src="/post/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png" alt="A fancy pie chart." width="672" />
+<p class="caption">
+Figure 1: A fancy pie chart.
+</p>
+</div>
+</div>
+
+	</div>
+
+	<footer class="entry-meta">
+		<span class="tag-links">		
+			
+                <a href="//tags/r-markdown/index.html" rel="tag">R Markdown</a>
+            
+                <a href="//tags/plot/index.html" rel="tag">plot</a>
+            
+                <a href="//tags/regression/index.html" rel="tag">regression</a>
+            
+		</span>
+	</footer>
+</article> 
+			
+		
+		</div>
+	</div>
+	<div id="secondary">
+
+	
+
+	<div id="primary-sidebar" class="primary-sidebar widget-area" role="complementary">
+
+		<script type="text/javascript">
+    function site_search(obj) {
+    	var host = window.location.host;
+        obj.q.value = "site:" + host + " " + obj.ss_q.value;
+    }
+</script>
+
+<aside id="search-3" class="widget widget_search">
+	<form role="search" class="search-form" action="//www.google.com/search" method="get" onSubmit="site_search(this)">
+
+	<input name="q" type="hidden" />
+	    <label>
+	        <span class="screen-reader-text">Search for:</span>
+	        <input name="ss_q" type="text" placeholder="Search ..." class="search-field" />
+	    </label>
+	    <input type="submit" value="Search" class="search-submit" />
+	</form>
+</aside>
+
+		<aside id="recent-posts-3" class="widget widget_recent_entries">
+
+	
+	<h1 class="widget-title">Recent Posts</h1>
+		<ul>
+			
+			<li>
+				<a href="/post/2015-07-23-r-rmarkdown//index.html">Hello R Markdown</a>
+			</li>
+			
+		</ul>
+	
+</aside>
+
+		<aside id="categories-3" class="widget widget_categories">
+	
+	<h1 class="widget-title">Categories</h1>
+
+	<ul>
+		
+		
+		
+		<li class="cat-item">
+			<a href="//categories/r/index.html">R</a>
+		</li>
+
+		
+
+	</ul>
+
+</aside>
+
+	</div>
+
+</div>
+
+</div>
+
+		</div>
+
+		<footer id="colophon" class="site-footer" role="contentinfo">
+
+			<div class="site-info">
+				<a href="http://gohugo.io">Proudly powered by Hugo</a>
+			</div>
+		</footer>
+	</div>
+
+	<script type='text/javascript' src='//js/functions.js'></script>
+</body>
+</html>

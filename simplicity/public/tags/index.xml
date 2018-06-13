@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Simplicity - Hugo theme</title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on Simplicity - Hugo theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 02 Apr 2014 00:00:00 +0000</lastBuildDate>
+    
+      <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>Development</title>
+        <link>/tags/development/</link>
+        <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+        <guid>/tags/development/</guid>
+        <description></description>
+      </item>
+    
+      <item>
+        <title>Elements</title>
+        <link>/tags/elements/</link>
+        <pubDate>Thu, 09 Nov 2017 10:15:01 +0200</pubDate>
+        <guid>/tags/elements/</guid>
+        <description></description>
+      </item>
+    
+      <item>
+        <title>Go</title>
+        <link>/tags/go/</link>
+        <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+        <guid>/tags/go/</guid>
+        <description></description>
+      </item>
+    
+      <item>
+        <title>Golang</title>
+        <link>/tags/golang/</link>
+        <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+        <guid>/tags/golang/</guid>
+        <description></description>
+      </item>
+    
+      <item>
+        <title>Hugo</title>
+        <link>/tags/hugo/</link>
+        <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+        <guid>/tags/hugo/</guid>
+        <description></description>
+      </item>
+    
+      <item>
+        <title>Images</title>
+        <link>/tags/images/</link>
+        <pubDate>Sat, 11 Nov 2017 10:15:01 +0200</pubDate>
+        <guid>/tags/images/</guid>
+        <description></description>
+      </item>
+    
+      <item>
+        <title>Lightbox</title>
+        <link>/tags/lightbox/</link>
+        <pubDate>Sat, 11 Nov 2017 10:15:01 +0200</pubDate>
+        <guid>/tags/lightbox/</guid>
+        <description></description>
+      </item>
+    
+      <item>
+        <title>Plot</title>
+        <link>/tags/plot/</link>
+        <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+        <guid>/tags/plot/</guid>
+        <description></description>
+      </item>
+    
+      <item>
+        <title>R Markdown</title>
+        <link>/tags/r-markdown/</link>
+        <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+        <guid>/tags/r-markdown/</guid>
+        <description></description>
+      </item>
+    
+      <item>
+        <title>Regression</title>
+        <link>/tags/regression/</link>
+        <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+        <guid>/tags/regression/</guid>
+        <description></description>
+      </item>
+    
+      <item>
+        <title>Templates</title>
+        <link>/tags/templates/</link>
+        <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+        <guid>/tags/templates/</guid>
+        <description></description>
+      </item>
+    
+      <item>
+        <title>Themes</title>
+        <link>/tags/themes/</link>
+        <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+        <guid>/tags/themes/</guid>
+        <description></description>
+      </item>
+    
+      <item>
+        <title>Typography</title>
+        <link>/tags/typography/</link>
+        <pubDate>Thu, 09 Nov 2017 10:15:01 +0200</pubDate>
+        <guid>/tags/typography/</guid>
+        <description></description>
+      </item>
+    
+  </channel>
+</rss>
